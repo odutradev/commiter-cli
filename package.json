@@ -10,7 +10,7 @@
     "commiter": "./bin/commiter.js"
   },
   "scripts": {
-    "build": "tsc && cp bin/commiter.ts bin/commiter.js && sed -i \"\" 's/.ts/.js/' bin/commiter.js",
+    "build": "tsc --project tsconfig.json",
     "prepublishOnly": "npm run build",
     "commiter": "node ./bin/commiter.js",
     "publish": "npm publish --access public"
