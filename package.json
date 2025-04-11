@@ -1,0 +1,25 @@
+{
+  "name": "commiter-cli",
+  "version": "1.0.0",
+  "description": "Commit standardization tool",
+  "license": "ISC",
+  "author": "https://github.com/odutradev",
+  "type": "module",
+  "main": "./lib/cli.js",
+  "bin": {
+    "commiter": "./bin/commiter.js"
+  },
+  "scripts": {
+    "build": "tsc && cp bin/commiter.ts bin/commiter.js && sed -i \"\" 's/.ts/.js/' bin/commiter.js",
+    "prepublishOnly": "npm run build",
+    "commiter": "node ./bin/commiter.js",
+    "publish": "npm publish --access public"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
