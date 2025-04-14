@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "prepublishOnly": "npm run build",
-    "commiter": "node  --experimental-specifier-resolution=node ./bin/commiter.js",
+    "commiter": "node ./bin/commiter.js",
     "publish": "npm publish --access public"
   },
   "files": [
