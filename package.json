@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "prepublishOnly": "npm run build",
-    "commiter": "node ./bin/commiter.js",
+    "commiter": "node  --experimental-specifier-resolution=node ./bin/commiter.js",
     "publish": "npm publish --access public"
   },
   "files": [
@@ -23,6 +23,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@types/node": "^22.14.1"
+    "@types/node": "^22.14.1",
+    "commander": "^13.1.0"
   }
 }

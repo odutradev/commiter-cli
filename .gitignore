@@ -1,7 +1,6 @@
 # Node
 node_modules/
 dist/
-lib/
 
 # Logs
 *.log
