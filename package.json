@@ -10,20 +10,10 @@
     "commiter": "./bin/commiter.js"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "prepublishOnly": "npm run build",
     "commiter": "node ./bin/commiter.js",
     "publish": "npm publish --access public"
   },
-  "files": [
-    "lib",
-    "bin"
-  ],
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  },
   "dependencies": {
-    "@types/node": "^22.14.1",
     "chalk": "^5.4.1",
     "cli-table": "^0.3.11",
     "commander": "^13.1.0",
