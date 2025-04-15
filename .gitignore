@@ -20,3 +20,6 @@ yarn-error.log*
 
 # Sistema
 Thumbs.db
+
+# Cli
+data/current
