@@ -1,0 +1,241 @@
+{
+    "iuricode": [
+        {
+            "description": "Accessibility",
+            "emoji": "♿",
+            "keyword": ""
+        },
+        {
+            "description": "Adding a test",
+            "emoji": "✅",
+            "keyword": "test"
+        },
+        {
+            "description": "Updating submodule version",
+            "emoji": "⬆️",
+            "keyword": ""
+        },
+        {
+            "description": "Downgrading submodule version",
+            "emoji": "⬇️",
+            "keyword": ""
+        },
+        {
+            "description": "Adding a dependency",
+            "emoji": "➕",
+            "keyword": "build"
+        },
+        {
+            "description": "Code review changes",
+            "emoji": "👌",
+            "keyword": "style"
+        },
+        {
+            "description": "Animations and transitions",
+            "emoji": "💫",
+            "keyword": ""
+        },
+        {
+            "description": "Bugfix",
+            "emoji": "🐛",
+            "keyword": "fix"
+        },
+        {
+            "description": "Comments",
+            "emoji": "💡",
+            "keyword": "docs"
+        },
+        {
+            "description": "Initial commit",
+            "emoji": "🎉",
+            "keyword": "init"
+        },
+        {
+            "description": "Configuration",
+            "emoji": "🔧",
+            "keyword": "chore"
+        },
+        {
+            "description": "Deploy",
+            "emoji": "🚀",
+            "keyword": ""
+        },
+        {
+            "description": "Documentation",
+            "emoji": "📚",
+            "keyword": "docs"
+        },
+        {
+            "description": "Work in progress",
+            "emoji": "🚧",
+            "keyword": ""
+        },
+        {
+            "description": "UI styling",
+            "emoji": "💄",
+            "keyword": "feat"
+        },
+        {
+            "description": "Infrastructure",
+            "emoji": "🧱",
+            "keyword": "ci"
+        },
+        {
+            "description": "Ideas list (tasks)",
+            "emoji": "🔜",
+            "keyword": ""
+        },
+        {
+            "description": "Move/Rename",
+            "emoji": "🚚",
+            "keyword": "chore"
+        },
+        {
+            "description": "New feature",
+            "emoji": "✨",
+            "keyword": "feat"
+        },
+        {
+            "description": "Package.json in JS",
+            "emoji": "📦",
+            "keyword": "build"
+        },
+        {
+            "description": "Performance",
+            "emoji": "⚡",
+            "keyword": "perf"
+        },
+        {
+            "description": "Refactoring",
+            "emoji": "♻️",
+            "keyword": "refactor"
+        },
+        {
+            "description": "Code cleanup",
+            "emoji": "🧹",
+            "keyword": "cleanup"
+        },
+        {
+            "description": "Removing a file",
+            "emoji": "🗑️",
+            "keyword": "remove"
+        },
+        {
+            "description": "Removing a dependency",
+            "emoji": "➖",
+            "keyword": "build"
+        },
+        {
+            "description": "Responsiveness",
+            "emoji": "📱",
+            "keyword": ""
+        },
+        {
+            "description": "Reverting changes",
+            "emoji": "💥",
+            "keyword": "fix"
+        },
+        {
+            "description": "Security",
+            "emoji": "🔒️",
+            "keyword": ""
+        },
+        {
+            "description": "SEO",
+            "emoji": "🔍️",
+            "keyword": ""
+        },
+        {
+            "description": "Version tag",
+            "emoji": "🔖",
+            "keyword": ""
+        },
+        {
+            "description": "Approval test",
+            "emoji": "✔️",
+            "keyword": "test"
+        },
+        {
+            "description": "Tests",
+            "emoji": "🧪",
+            "keyword": "test"
+        },
+        {
+            "description": "Text",
+            "emoji": "📝",
+            "keyword": ""
+        },
+        {
+            "description": "Typing",
+            "emoji": "🏷️",
+            "keyword": ""
+        },
+        {
+            "description": "Error handling",
+            "emoji": "🥅",
+            "keyword": ""
+        },
+        {
+            "description": "Data",
+            "emoji": "🗃️",
+            "keyword": "raw"
+        }
+    ],
+    "international": [
+        {
+            "description": "New feature",
+            "emoji": "✨",
+            "keyword": "feat"
+        },
+        {
+            "description": "Bug fix",
+            "emoji": "🐛",
+            "keyword": "fix"
+        },
+        {
+            "description": "Documentation changes",
+            "emoji": "📚",
+            "keyword": "docs"
+        },
+        {
+            "description": "Code style changes",
+            "emoji": "🎨",
+            "keyword": "style"
+        },
+        {
+            "description": "Code refactoring",
+            "emoji": "♻️",
+            "keyword": "refactor"
+        },
+        {
+            "description": "Performance improvement",
+            "emoji": "⚡",
+            "keyword": "perf"
+        },
+        {
+            "description": "Adding or updating tests",
+            "emoji": "🧪",
+            "keyword": "test"
+        },
+        {
+            "description": "Build system changes",
+            "emoji": "📦",
+            "keyword": "build"
+        },
+        {
+            "description": "Continuous Integration changes",
+            "emoji": "👷",
+            "keyword": "ci"
+        },
+        {
+            "description": "Other changes (no src/test modification)",
+            "emoji": "🔧",
+            "keyword": "chore"
+        },
+        {
+            "description": "Reverting commits",
+            "emoji": "⏪",
+            "keyword": "revert"
+        }
+    ]
+}
