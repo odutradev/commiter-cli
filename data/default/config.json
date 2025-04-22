@@ -1,4 +1,5 @@
 {
+    "addFilesToGitOnCommit": "activated",
   "commitMessageLanguage": "en",
-  "addFilesToGitOnCommit": "activated"
+  "commitPatterns": "international"
 }

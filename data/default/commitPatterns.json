@@ -184,57 +184,57 @@
     "international": [
         {
             "description": "New feature",
-            "emoji": "✨",
+            "emoji": "",
             "keyword": "feat"
         },
         {
             "description": "Bug fix",
-            "emoji": "🐛",
+            "emoji": "",
             "keyword": "fix"
         },
         {
             "description": "Documentation changes",
-            "emoji": "📚",
+            "emoji": "",
             "keyword": "docs"
         },
         {
             "description": "Code style changes",
-            "emoji": "🎨",
+            "emoji": "",
             "keyword": "style"
         },
         {
             "description": "Code refactoring",
-            "emoji": "♻️",
+            "emoji": "",
             "keyword": "refactor"
         },
         {
             "description": "Performance improvement",
-            "emoji": "⚡",
+            "emoji": "",
             "keyword": "perf"
         },
         {
             "description": "Adding or updating tests",
-            "emoji": "🧪",
+            "emoji": "",
             "keyword": "test"
         },
         {
             "description": "Build system changes",
-            "emoji": "📦",
+            "emoji": "",
             "keyword": "build"
         },
         {
             "description": "Continuous Integration changes",
-            "emoji": "👷",
+            "emoji": "",
             "keyword": "ci"
         },
         {
             "description": "Other changes (no src/test modification)",
-            "emoji": "🔧",
+            "emoji": "",
             "keyword": "chore"
         },
         {
             "description": "Reverting commits",
-            "emoji": "⏪",
+            "emoji": "",
             "keyword": "revert"
         }
     ]

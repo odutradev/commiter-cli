@@ -25,5 +25,18 @@
                 "value": "pt"
             }
         ]
+    },
+    "commitPatterns": {
+        "description": "Commit pattern that will be followed",
+        "choices":[
+            {
+                "name": "international (default)",
+                "value": "international"
+            },
+            {
+                "name": "iuricode",
+                "value": "iuricode"
+            }
+        ]
     }
 }
