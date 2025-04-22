@@ -1,10 +1,29 @@
 {
     "addFilesToGitOnCommit": {
         "description": "Automatically add files to your git project",
+        "choices":[
+            {
+                "name": "activated (default)",
+                "value": "activated"
+            },
+            {
+                "name": "disabled",
+                "value": "disabled"
+            }
+        ],
         "options": ["activated", "disabled"]
     },
     "commitMessageLanguage": {
-        "description": "Automatically add files to your git project",
-        "options": ["english", "portuguese"]
+        "description": "Language the commit will be translated into",
+        "choices":[
+            {
+                "name": "english (default)",
+                "value": "en"
+            },
+            {
+                "name": "portuguese",
+                "value": "pt"
+            }
+        ]
     }
 }
