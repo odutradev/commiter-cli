@@ -101,10 +101,10 @@ Contributions, issues and feature requests are welcome!
 4. Push to the branch (`git push origin feature/XYZ`)  
 5. Open a Pull Request
 
-Please read [CONTRIBUTING.md](https://github.com/odutradev/commiter-cli/blob/main/CONTRIBUTING.md)
+Please read [CONTRIBUTING.md](https://github.com/odutradev/commiter-cli/blob/master/CONTRIBUTING.md)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License. See [LICENSE](https://github.com/odutradev/commiter-cli/blob/main/LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](https://github.com/odutradev/commiter-cli/blob/master/LICENSE) for details.
