@@ -28,6 +28,7 @@ try {
 
     json.update('../package.json', { version: newVersion });
     await cmd(`git commit -a -m "${newVersion}"`, process.cwd(), { log: false, shell: true });
+    await cmd(`git push origin master`, process.cwd(), { log: false, shell: true });
     await cmd(`npm publish`, process.cwd(), { log: false, shell: true });
 } catch (error) {
      logger.error("There was an error updating");
