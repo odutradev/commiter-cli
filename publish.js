@@ -23,14 +23,12 @@ const bumpVersion = ver => {
 
 const newVersion = bumpVersion(version);
 
-
-
 try {
     logger.info(`Updating CLI from ${chalk.cyanBright(version)} to ${chalk.greenBright(newVersion)}`);
 
     json.update('../package.json', { version: newVersion });
-    await cmd(`git commit -a -m "${newVersion}"`, process.cwd(), { log: true, shell: true });
-    await cmd(`npm publish`, process.cwd(), { log: true, shell: true });
+    await cmd(`git commit -a -m "${newVersion}"`, process.cwd(), { log: false, shell: true });
+    await cmd(`npm publish`, process.cwd(), { log: false, shell: true });
 } catch (error) {
      logger.error("There was an error updating");
 } finally {

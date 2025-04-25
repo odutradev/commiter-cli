@@ -1,6 +1,6 @@
 {
   "name": "commiter-cli",
-  "version": "1.2.8",
+  "version": "1.0.9",
   "description": "Commit standardization tool",
   "license": "ISC",
   "author": "https://github.com/odutradev",
