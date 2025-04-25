@@ -5,31 +5,24 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/commiter-cli.svg?style=flat)](https://npmcharts.com/compare/commiter-cli?minimal=true)  
 [![Install Size](https://packagephobia.now.sh/badge?p=commiter-cli)](https://packagephobia.now.sh/result?p=commiter-cli)  
 [![Version](https://img.shields.io/npm/v/commiter-cli.svg)](https://npmjs.org/package/commiter-cli)  
-[![License](https://img.shields.io/npm/l/commiter-cli.svg)](https://github.com/lite-technology/commiter-cli/blob/main/package.json)  
+[![License](https://img.shields.io/npm/l/commiter-cli.svg)](https://github.com/odutradev/commiter-cli/blob/main/LICENSE)  
+
+**Repository:** https://github.com/odutradev/commiter-cli  
+**Creator & Main Contributor:** João Dutra (@odutradev)
 
 ---
 
-## Contents
-- [Key Features](#key-features)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Quick Start](#quick-start)  
-- [Commands](#commands)  
-  - [config](#config)  
-  - [use](#use)  
-  - [help](#help)  
-  - [version](#version)  
+## 🚀 Key Features
+
+- **Automatic translation** of commit messages  
+- **Standardized commit prefixes** with emojis and keywords  
+- **Multiple pattern styles** configurable via JSON  
+- **Auto-add files** before committing (optional)  
 
 ---
 
-## Key Features
-- Automatic translation of commit messages  
-- Enforced commit message standardization  
-- Support for multiple commit pattern styles  
+## 💾 Installation
 
----
-
-## Installation
 ```bash
 npm install -g commiter-cli
 ```
@@ -37,63 +30,81 @@ npm install -g commiter-cli
 ---
 
 ## Usage
+
 ```bash
-# Run any supported command
-commiter <COMMAND> [...args]
+commiter <command> [options]
 ```
+
+Run `commiter --help` or `commiter help` to see all commands and flags.
 
 ---
 
-## Quick Start
-To list all commands:
-```bash
-commiter --help
-# or
-commiter help
-```
+## ⚡ Quick Start
 
-To show the current version:
-```bash
-commiter --version
-# or
-commiter version
-```
+- **List commands**  
+  ```bash
+  commiter help
+  ```
+- **Show version**  
+  ```bash
+  commiter version
+  ```
+- **Generate a commit**  
+  ```bash
+  commiter use
+  ```
 
 ---
 
-## Commands
+## 📦 Commands
 
-### config
+### config  
 Manage your CLI settings:
 ```bash
-# List all available settings
+# Show all settings
 commiter config list
 
-# Show current configuration
+# View current configuration
 commiter config get
 
-# Reset all settings to their defaults
-commiter config reset
+# Update a setting
+commiter config update <key> <value>
 
-# Update a specific setting
-commiter config update <configName>
+# Reset to defaults
+commiter config reset
 ```
 
-### use
-Generate a standardized commit:
+### use  
+Interactively create a standardized commit:
 ```bash
-# Follow the interactive prompts
 commiter use
 ```
 
-### help
-Display help information:
+### help  
+Display usage information:
 ```bash
 commiter help
 ```
 
-### version
-Display the CLI version:
+### version  
+Display the installed version:
 ```bash
 commiter version
 ```
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!  
+1. Fork the repo  
+2. Create a branch (`git checkout -b feature/XYZ`)  
+3. Commit your changes (`git commit -m "feat: add XYZ"`)  
+4. Push to the branch (`git push origin feature/XYZ`)  
+5. Open a Pull Request
+
+Please read [CONTRIBUTING.md](https://github.com/odutradev/commiter-cli/blob/main/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](https://github.com/odutradev/commiter-cli/blob/main/CODE_OF_CONDUCT.md) before you start.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See [LICENSE](https://github.com/odutradev/commiter-cli/blob/main/LICENSE) for details.
