@@ -101,7 +101,7 @@ Contributions, issues and feature requests are welcome!
 4. Push to the branch (`git push origin feature/XYZ`)  
 5. Open a Pull Request
 
-Please read [CONTRIBUTING.md](https://github.com/odutradev/commiter-cli/blob/main/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](https://github.com/odutradev/commiter-cli/blob/main/CODE_OF_CONDUCT.md) before you start.
+Please read [CONTRIBUTING.md](https://github.com/odutradev/commiter-cli/blob/main/CONTRIBUTING.md)
 
 ---
 
