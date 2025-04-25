@@ -1,6 +1,6 @@
 {
   "name": "commiter-cli",
-  "version": "1.3.8",
+  "version": "1.3.9",
   "description": "A CLI tool to standardize and translate Git commit messages",
   "license": "MIT",
   "author": "João Dutra <https://github.com/odutradev>",
@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/odutradev/commiter-cli/issues"
   },
-
   "scripts": {
     "commiter": "node ./bin/commiter.js",
     "publish-cli": "node  ./publish.js"
