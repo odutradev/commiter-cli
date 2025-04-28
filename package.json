@@ -1,6 +1,6 @@
 {
   "name": "commiter-cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A CLI tool to standardize and translate Git commit messages",
   "license": "MIT",
   "author": "João Dutra <https://github.com/odutradev>",
