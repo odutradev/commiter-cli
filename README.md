@@ -2,13 +2,18 @@
 
 ### Commit Standardization Tool
 
-[![NPM Downloads](https://img.shields.io/npm/dm/commiter-cli.svg?style=flat)](https://npmcharts.com/compare/commiter-cli?minimal=true)  
-[![Install Size](https://packagephobia.now.sh/badge?p=commiter-cli)](https://packagephobia.now.sh/result?p=commiter-cli)  
-[![Version](https://img.shields.io/npm/v/commiter-cli.svg)](https://npmjs.org/package/commiter-cli)  
-[![License](https://img.shields.io/npm/l/commiter-cli.svg)](https://github.com/odutradev/commiter-cli/blob/main/LICENSE)  
+<nobr>
+
+  [![NPM Downloads](https://img.shields.io/npm/dm/commiter-cli.svg?style=flat)](https://npmcharts.com/compare/commiter-cli?minimal=true)&nbsp;
+  [![Install Size](https://packagephobia.now.sh/badge?p=commiter-cli)](https://packagephobia.now.sh/result?p=commiter-cli)&nbsp;
+  [![Version](https://img.shields.io/npm/v/commiter-cli.svg)](https://npmjs.org/package/commiter-cli)&nbsp;
+  [![License](https://img.shields.io/npm/l/commiter-cli.svg)](https://github.com/odutradev/commiter-cli/blob/master/LICENSE)
+
+</nobr>
+
 
 **Repository:** https://github.com/odutradev/commiter-cli  
-**Creator & Main Contributor:** João Dutra (@odutradev)
+**Creator & Main Contributor:** [João Dutra (@odutradev)](https://github.com/odutradev)
 
 ---
 
